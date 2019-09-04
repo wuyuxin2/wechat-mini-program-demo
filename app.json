@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/movieDetail/movieDetail",
+    "pages/list/list",
+    "pages/detail/detail"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文与字",
+        "iconPath": "/images/icon/intro.png",
+        "selectedIconPath": "/images/icon/intro_click.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影频道",
+        "iconPath": "/images/icon/movie.png",
+        "selectedIconPath": "/images/icon/movie_click.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "welcome to wuyuxin2",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  }
+}

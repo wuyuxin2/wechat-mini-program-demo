@@ -1,0 +1,35 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+button{
+  font-size: 32rpx;
+  border: 1pa solid #999;
+  background: #8ED145;
+}
+.avatar{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 100rpx 0;
+}
+.userName{
+  font-size: 32rpx;
+  font-weight: 700;
+  margin: 100rpx 0;
+}
+.goStudy{
+  width: 200rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 1px solid #999;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
