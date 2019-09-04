@@ -32,5 +32,6 @@
     "navigationBarTitleText": "welcome to wuyuxin2",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
